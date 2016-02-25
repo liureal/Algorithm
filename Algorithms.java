@@ -1,12 +1,8 @@
-package com.real.puzzle;
-
-import oracle.net.aso.e;
-
 import org.junit.Assert;
 
-public class Algorithms {
+public class RegularMatch {
 	public static void main(String[] args) {
-		Algorithms alg = new Algorithms();
+		RegularMatch alg = new RegularMatch();
 		Assert.assertEquals(alg.isMatch("aa", "a"), false);
 		Assert.assertEquals(alg.isMatch("aa", "aa"), true);
 		Assert.assertEquals(alg.isMatch("aaa", "aa"), false);
