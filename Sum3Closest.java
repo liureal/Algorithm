@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Closest3Sum {
 	public static int threeSumClosest(int[] nums, int target) {
 		if (nums.length < 4) {
