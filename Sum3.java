@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Sum3 {
 	public static List<List<Integer>> threeSum(int[] nums) {
 		List<List<Integer>> result = new ArrayList<List<Integer>>();
